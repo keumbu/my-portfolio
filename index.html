@@ -1,42 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Ezra's Portfolio</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 2rem;
-      background-color: #f4f4f4;
-      text-align: center;
-    }
-    h1 {
-      color: #333;
-    }
-    section {
-      margin-top: 2rem;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Ezra's Portfolio</h1>
-  <p>Electrical & Electronics Enthusiast | IoT Projects | Solar Inventions</p>
+  <!-- Header Section -->
+  <header id="home">
+    <div class="container">
+      <div class="intro">
+        <h1>Hi, I’m <span>Ezra</span></h1>
+        <p>Electrical Engineer | IoT Enthusiast | Web Developer</p>
+        <a href="#about" class="btn">Learn More</a>
+      </div>
+    </div>
+  </header>
 
-  <section>
-    <h2>About Me</h2>
-    <p>I’m Ezra, an aspiring electrical and electronic engineer passionate about automation, Arduino, and smart tech solutions.</p>
+  <!-- About Me Section -->
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Hello, I’m Ezra, an aspiring Electrical and Electronics Engineer with a passion for technology and automation. I specialize in Arduino, IoT, and solar-powered systems. I’m constantly expanding my skills in programming, web development, and creating smart solutions to everyday problems.</p>
+    </div>
   </section>
 
-  <section>
-    <h2>Projects</h2>
-    <p>More projects coming soon...</p>
+  <!-- Skills Section -->
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul>
+        <li>Arduino Programming</li>
+        <li>IoT Solutions</li>
+        <li>Solar Systems Design</li>
+        <li>Web Development</li>
+        <li>Electrical Circuit Design</li>
+      </ul>
+    </div>
   </section>
 
-  <section>
-    <h2>Contact</h2>
-    <p>Email: your-email@example.com</p>
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-card">
+        <img src="images/project1.jpg" alt="Project 1">
+        <h3>Smart Home System</h3>
+        <p>A smart home automation system built with Arduino and IoT to control lights, fans, and other devices remotely.</p>
+      </div>
+      <div class="project-card">
+        <img src="images/project2.jpg" alt="Project 2">
+        <h3>Solar-Powered Incubator</h3>
+        <p>An incubator powered by solar energy, designed to maintain optimal temperature for egg hatching.</p>
+      </div>
+    </div>
   </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Email: your-email@example.com</p>
+      <p>Feel free to reach out for collaboration or inquiries!</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>© 2025 Ezra's Portfolio</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
